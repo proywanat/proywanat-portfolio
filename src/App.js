@@ -2,9 +2,9 @@ import React from "react";
 import Sidebar from "./components/sidebar/Sidebar";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
-import Service from "./components/services/Service";
-import Portfolio from "./components/portfolio/Portfolio";
+import Services from "./components/services/Services";
 import Resume from "./components/resume/Resume";
+import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 
 function App() {
@@ -14,8 +14,7 @@ function App() {
       <main className="main">
         <Home />
         <About />
-        <Service />
-        <Portfolio />
+        <Services />
         <Resume />
         <Portfolio />
         <Contact />
