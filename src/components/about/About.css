@@ -1,0 +1,57 @@
+/* fr = Fractional Unit */
+.about__container {
+    grid-template-columns: 4fr 9fr;
+    column-gap: 1.875rem;
+}
+
+.section__title {
+    margin-bottom: 1.25rem;
+}
+
+.icon-badge {
+    font-size: 1.5rem;
+}
+
+.icon-book-open {
+    font-size: 1.5rem;
+}
+
+.about__img {
+    border-radius: 1rem;
+}
+
+.about__info {
+    gap: 2rem;
+    margin-bottom: 0.875rem;
+    display: flex;
+}
+
+.about__details__exp {
+    padding: 1.5rem;
+    flex: 1;
+    background: var(--body-color);
+    border: 0.1rem solid rgb(53, 53, 53);
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.about__details__skills {
+    padding: 2rem 1.5rem;
+    flex: 1;
+    background: var(--body-color);
+    border: 0.1rem solid rgb(53, 53, 53);
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.about__description {
+    text-indent: 2.5rem;
+    margin-bottom: 0.875rem;
+    text-align: justify;
+}
+  
+
+
+
