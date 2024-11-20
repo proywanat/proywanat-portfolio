@@ -192,7 +192,7 @@ const Shapes = () => {
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          d="M15 0 L30 15 L15 30 L0 15 Z"
+          d="M15 2 L28 15 L15 28 L2 15 Z"
           stroke="#0BE07DFF"
           stroke-width="3"
           fill="none"
