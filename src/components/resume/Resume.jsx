@@ -15,6 +15,7 @@ const Resume = () => {
               return (
                 <Card 
                   key={id}
+                  icon={val.icon}
                   title={val.title}
                   desc={val.desc}
                 />
