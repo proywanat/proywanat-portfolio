@@ -6,6 +6,7 @@ const Data = [
     title: "Technical Skills",
     desc: (
       <div id="technical-skills">
+        <h4>Frontend Development</h4>
         <ul class="skills-list">
           <li>HTML</li>
           <li>CSS</li>
@@ -14,12 +15,18 @@ const Data = [
           <li>ReactJS</li>
           <li>NextJS</li>
           <li>Angular</li>
+        </ul>
+        <h4>Backend Development</h4>
+        <ul class="skills-list">
           <li>Java</li>
           <li>SpringBoot</li>
           <li>NodeJS</li>
           <li>ExpressJS</li>
           <li>PHP</li>
-          <li>Dart</li>
+        </ul>
+        <h4>Mobile Development</h4>
+        <ul class="skills-list">
+          <li>Flutter</li>
         </ul>
       </div>
     ),
@@ -58,7 +65,12 @@ const Data = [
     icon: "icon-briefcase",
     year: "Dec 2023 - present",
     title: "Software Developer | T-ECOSYS",
-    desc: "Identify and fix system issues, enhance security, and develop new features as assigned, covering both Frontend and Backend development.",
+    desc: (
+      <div className="experience__description">
+        Identify and fix system issues, enhance security, and develop new
+        features as assigned, covering both Frontend and Backend development.
+      </div>
+    ),
   },
   {
     id: 5,
@@ -66,7 +78,13 @@ const Data = [
     icon: "icon-briefcase",
     year: "Jul 2023 - Nov 2023",
     title: "Full Stack Engineer | Jenosize",
-    desc: " Developed the Marketing Cloud project and adding new features based on customer needs, such as CRM management, improving Live Chat, Automate Flows and addressing various issues that arise.",
+    desc: (
+      <div className="experience__description">
+        Developed the Marketing Cloud project and adding new features based on
+        customer needs, such as CRM management, improving Live Chat, Automate
+        Flows and addressing various issues that arise.
+      </div>
+    ),
   },
 ];
 

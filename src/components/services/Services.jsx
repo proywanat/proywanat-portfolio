@@ -10,7 +10,7 @@ const data = [
     image: Image1,
     title: "Mobile Development",
     description:
-      "Providing tailor-made mobile applications designed to meet specific business needs or target user requirements. These apps can include various functionalities and are developed to deliver unique experiences.",
+      "Developing custom mobile apps tailored to business needs or user requirements, offering diverse functionalities and unique experiences.",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const data = [
     image: Image3,
     title: "Data Engineering",
     description:
-      "Design and develop data infrastructure, pipelines, warehouses, and lakes to efficiently process, store, and analyze data. Ensure quality, security, and real-time capabilities tailored to business needs.",
+      "Design and develop data systems for efficient processing, storage, analysis, and real-time insights with a focus on quality and security.",
   },
 ];
 

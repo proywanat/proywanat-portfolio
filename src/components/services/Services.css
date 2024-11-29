@@ -16,18 +16,18 @@
 }
 
 .services__card:nth-child(1) {
-    background-color: rgb(108, 108, 229);
-    box-shadow: 0px 5px 20px 0px rgb(108, 108, 229 / 50%);
+    background-color: rgb(231, 136, 149);
+    box-shadow: 0px 5px 20px 0px rgb(231, 136, 149/ 50%);
 }
 
 .services__card:nth-child(2) {
-    background-color: rgb(249, 215, 76);
-    box-shadow: 0px 5px 20px 0px rgb(249, 215, 76 / 50%);
+    background-color: rgb(255, 228, 201);
+    box-shadow: 0px 5px 20px 0px rgb(255, 228, 201 / 50%);
 }
 
 .services__card:nth-child(3) {
-    background-color: rgb(249, 123, 139);
-    box-shadow: 0px 5px 20px 0px rgb(249, 123, 139 / 50%);
+    background-color: rgb(170, 201, 198);
+    box-shadow: 0px 5px 20px 0px rgb(190, 209, 207 / 50%);
 }
 
 .services__img {
