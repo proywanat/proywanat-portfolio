@@ -67,8 +67,12 @@ const Data = [
     title: "Software Developer | T-ECOSYS",
     desc: (
       <div className="experience__description">
-        Identify and fix system issues, enhance security, and develop new
-        features as assigned, covering both Frontend and Backend development.
+        Responsible for identifying and resolving system issues to improve
+        functionality and enhance security. Develop new features as assigned,
+        handling both Frontend and Backend tasks to ensure seamless performance.
+        Additionally, contribute to web development projects using WordPress,
+        focusing on customization, optimization, and maintenance to meet project
+        goals effectively.
       </div>
     ),
   },
