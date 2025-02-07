@@ -5,7 +5,7 @@ import Work4 from "../../assets/work-4.png";
 import Work5 from "../../assets/work-5.png";
 import Work6 from "../../assets/work-6.png";
 
-const Menu = [
+const Data = [
   {
     id: 1,
     image: Work1,
@@ -19,7 +19,6 @@ const Menu = [
         </div>
     ),
     category: "Application",
-    link: "https://github.com/proywanat/MyCongeeApplication",
   },
   {
     id: 2,
@@ -35,7 +34,6 @@ const Menu = [
         </div>
     ),
     category: "Web Application",
-    link: "",
   },
   {
     id: 3,
@@ -51,7 +49,6 @@ const Menu = [
         </div>
     ),
     category: "Web Application",
-    link: "",
   },
   ,
   {
@@ -68,7 +65,6 @@ const Menu = [
         </div>
     ),
     category: "Web Application",
-    link: "",
   },
   ,
   {
@@ -84,7 +80,6 @@ const Menu = [
         </div>
     ),
     category: "Web Application",
-    link: "",
   },
   {
     id: 6,
@@ -99,8 +94,7 @@ const Menu = [
         </div>
     ),
     category: "WordPress",
-    link: "",
   },
 ];
 
-export default Menu;
+export default Data
