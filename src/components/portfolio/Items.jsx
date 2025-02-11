@@ -39,8 +39,56 @@ const Items = ({ projectItems }) => {
             <button className="close-button" onClick={closeModal}>
               &times;
             </button>
-            <h2>Modal Title</h2>
-            <p>Modal Content here</p>
+            <h2 className="modal-title">{selectedProject.modaltitle}</h2>
+            <p className="modal-tag">Tag: {selectedProject.tag}</p>
+
+            <div className="modal-content">
+              <img
+                src={selectedProject.imagemodal}
+                alt="modal"
+                className="modal-img"
+              />
+
+              <div className="modal-desc">
+                {selectedProject.modaldesc
+                  .trim()
+                  .split("\n")
+                  .map((paragraph, index) =>
+                    paragraph ? (
+                      <p key={index} style={{ marginBottom: "1.5rem" }}>
+                        {paragraph}
+                      </p>
+                    ) : (
+                      <br key={index} />
+                    )
+                  )}
+              </div>
+
+              {selectedProject.imagemodal2 && (
+                <img
+                  src={selectedProject.imagemodal2}
+                  alt="modal"
+                  className="modal-img"
+                />
+              )}
+
+              {selectedProject.modaldesc2 && (
+                <div className="modal-desc">
+                  {selectedProject.modaldesc2
+                    .trim()
+                    .split("\n")
+                    .map((paragraph, index) =>
+                      paragraph ? (
+                        <p key={index} style={{ marginBottom: "1.5rem" }}>
+                          {paragraph}
+                        </p>
+                      ) : (
+                        <br key={index} />
+                      )
+                    )}
+                </div>
+              )}
+            </div>
           </div>
         </div>
       )}
@@ -48,4 +96,4 @@ const Items = ({ projectItems }) => {
   );
 };
 
-export default Items;
+export default Items
