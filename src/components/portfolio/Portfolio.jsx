@@ -4,26 +4,24 @@ import List from "./List";
 import Items from "./Items";
 import Data from "./Data";
 
+const allNavList =  ["All", ...new Set(Data.map((Data) => Data.category))];
+console.log(allNavList);
+
 const Portfolio = () => {
-  const [projectItems, setMenuItems] = useState(Data)
+  const [projectItems, setMenuItems] = useState(Data);
+  const [navList, setCategory] = useState(allNavList);
+
   return (
-    <section className=" work container section">
+    <section className="work container section" id="portfolio">
       <h2 className="section__title">Recent Works</h2>
 
-      {/* <div className="work__filters">
-        <span className="work__item">Application</span>
-        <span className="work__item">Web Application</span>
-        <span className="work__item">WordPress</span>
-        <span className="work__item">Data Engineering</span>
-      </div> */}
-
-      <List />
+      <List list={navList} />
 
       <div className="portfolio__container container grid">
-        <Items projectItems={projectItems}/>
+        <Items projectItems={projectItems} />
       </div>
     </section>
   );
 };
 
-export default Portfolio
+export default Portfolio;

@@ -1,9 +1,15 @@
 import React from 'react'
 
-const List = () => {
+const List = ({list}) => {
   return (
-    <div>
-      List
+    <div className="portfolio__list">
+      {list.map((category, index) => {
+        return(
+          <button className="portfolio__list-item text-cs" key={index}>
+            {category}
+          </button>
+        );
+      })}
     </div>
   )
 }
