@@ -54,7 +54,7 @@
 }
 
 .eye-icon {
-  color: white;
+  color: #fff;
   font-size: 30px;
   opacity: 0;
   transition: opacity 0.5s ease;
@@ -79,24 +79,40 @@
 .portfolio__list {
   display: flex;
   justify-content: start;
-  column-gap: 40px;
-  margin-bottom: 60px;
+  column-gap: 35px;
+  margin-bottom: 40px;
 }
 
 .portfolio__list-item {
-  color: white; 
-  background-color: #007bff; 
+  color: #000;
+  background-color: transparent; 
   font-size: var(--normal-font-size);
   font-weight: var(--font-bold);
-  padding: 10px 20px; 
-  border-radius: 8px; 
-  border: none; 
   cursor: pointer; 
-  transition: background-color 0.3s ease-in-out;
+  margin-left: 2rem;
+  position: relative;
+  transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
 }
 
-.portfolio__list-item:hover {
-  background-color: #0056b3; 
+.portfolio__list-item::before {
+  content: '';
+  height: 2px;
+  max-width: 60%;
+  width: 0; 
+  background-color: var(--first-color);
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
+}
+
+.active-work {
+  color: var(--first-color);
+}
+
+.active-work::before,
+.portfolio__list-item:hover::before {
+  width: 40%;
 }
 
 .portfolio__category,
