@@ -50,9 +50,17 @@
   padding: 0.4375rem 0;
 }
 
+.timeline .experience__description {
+  margin-top: 1rem;
+}
+
 #technical-skills {
   font-family: Arial, sans-serif;
   margin-top: 20px;
+}
+
+#technical-skills h4{
+  margin-top: 1rem;
 }
 
 .skills-list {

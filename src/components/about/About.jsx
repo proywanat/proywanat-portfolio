@@ -22,17 +22,22 @@ const About = () => {
             <div className="about__details__skills">
               <i className="icon-book-open"></i>
               <h3>English Language Levels</h3>
-              <p>Elementary</p>
+              <p>Elementary (A2)</p>
             </div>
           </div>
           <div>
             <p className="about__description">
-              Hi, I'm Wanat, a passionate Software Developer with a strong
-              interest in Data Engineering. I have experience as a Full Stack
-              Engineer and Software Developer, and I'm always eager to learn and
-              grow in both the data field and programming. Currently, I'm
-              studying to enhance my data skills, with the goal of transitioning
-              into a Data Engineer role.
+              Hello, my name is Wanat. I am currently working as a Software
+              Developer with 1 year of experience. Recently, I have taken the
+              opportunity to expand my knowledge beyond programming skills. I
+              chose to study Data Engineering, focusing on Python, SQL, and data
+              analysis tools such as Pandas and NumPy. I’ve also explored how to
+              apply these skills to build Machine Learning models, alongside
+              other areas like Big Data management and data visualization. After
+              studying and working on projects, I found myself increasingly
+              fascinated by the field of Data. This inspired me to delve deeper
+              and seriously consider transitioning to a Data Engineer role in
+              the future.
             </p>
             <a href="#download" className="btn">
               Download CV
@@ -42,6 +47,6 @@ const About = () => {
       </div>
     </section>
   );
-}
+};
 
 export default About
