@@ -96,4 +96,4 @@ const Items = ({ projectItems }) => {
   );
 };
 
-export default Items
+export default Items;
