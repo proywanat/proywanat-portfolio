@@ -129,7 +129,7 @@
 }
 
 .work__desc {
-  color: #fff;
+  color: var(--container-color);
   margin: 0 0 0.98rem;
   position: absolute;
   display: flex;
@@ -140,8 +140,9 @@
 .work__desc li {
   padding: 5px 10px;
   font-size: 0.7rem;
-  color: #fff;
-  background-color: var(--first-color);
+  color: var(--first-color);
+  background-color: var(--container-color);
+  border: 1px solid var(--first-color);
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -161,7 +162,7 @@
 }
 
 .modal {
-  background: white;
+  background: var(--container-color);
   padding: 20px;
   border-radius: 10px;
   max-width: 600px;
