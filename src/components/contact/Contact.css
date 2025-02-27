@@ -22,7 +22,7 @@
 }
 
 .contact__item {
-  cursor: pointer; /* เปลี่ยน cursor เป็น pointer */
+  cursor: pointer; 
   text-decoration: none;
   color: inherit;
   display: flex;

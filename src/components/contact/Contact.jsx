@@ -16,16 +16,9 @@ const Contact = () => {
             <span>proywanat@gmail.com</span>
           </a>
         </div>
-        <div className="contact__bottom">
-          <a
-            href="https://www.google.com/maps/search/?api=1&query=Bangson,Bangkok,Thailand"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="contact__item"
-          >
-            <i className="fa-solid fa-location-dot"></i>
-            <span>Bangson, Bangkok, Thailand</span>
-          </a>
+        <div className="contact__item">
+          <i className="fa-solid fa-location-dot"></i>
+          <span>Bangson, Bangkok, Thailand</span>
         </div>
       </div>
     </section>
