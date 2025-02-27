@@ -16,13 +16,13 @@ const About = () => {
               <i className="icon-badge"></i>
               <h3>Experience</h3>
               <p>
-                1+ years <br /> Software Developer
+                1 years <br /> Software Developer
               </p>
             </div>
             <div className="about__details__skills">
               <i className="icon-book-open"></i>
               <h3>English Language Levels</h3>
-              <p>Elementary (A2)</p>
+              <p>Intermediate (B1)</p>
             </div>
           </div>
           <div>

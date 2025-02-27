@@ -22,14 +22,14 @@
 }
 
 .contact__item {
-  cursor: pointer; /* เปลี่ยน cursor เป็น pointer */
+  cursor: pointer; 
   text-decoration: none;
   color: inherit;
   display: flex;
   align-items: center;
   gap: 0.5rem;
   font-size: 1rem;
-  background: #fff;
+  background: var(--container-color);
   padding: 1.25rem;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
