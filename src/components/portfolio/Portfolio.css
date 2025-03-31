@@ -249,3 +249,45 @@
   background-color: rgb(223, 120, 134); 
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 768px) {
+  .portfolio__container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .portfolio__list {
+    justify-content: center;
+    column-gap: 20px;
+  }
+
+  .portfolio__list-item {
+    margin-left: 1rem;
+  }
+
+  .portfolio__img-wrapper {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .portfolio__container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .portfolio__list {
+    justify-content: center;
+    column-gap: 10px;
+  }
+
+  .portfolio__list-item {
+    font-size: 14px;
+    margin-left: 0.5rem;
+  }
+
+  .portfolio__img-wrapper {
+    height: 180px;
+  }
+}

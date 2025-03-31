@@ -53,6 +53,46 @@
     text-align: justify;
 }
   
+@media screen and (max-width: 768px) {
+    .about__container {
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+        text-align: center;
+    }
 
+    .about__img {
+        margin: 0 auto;
+    }
+
+    .about__info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__details__exp, .about__details__skills {
+        width: 90%;
+    }
+
+    .about__description {
+        text-indent: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about__details__exp, .about__details__skills {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .about__description {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        display: block;
+        margin: 1rem auto;
+    }
+}
 
 

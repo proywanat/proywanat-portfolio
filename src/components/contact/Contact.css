@@ -81,3 +81,39 @@
     transform: translateY(0);
   }
 }
+
+@media screen and (max-width: 1024px) { 
+  .contact__info {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .contact__top {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .contact__item {
+    width: 100%;
+    max-width: 350px;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .contact__item i {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 768px) { 
+  .contact__item {
+    max-width: 280px;
+    font-size: 0.9rem;
+    padding: 0.9rem;
+  }
+
+  .contact__item i {
+    font-size: 1.5rem;
+  }
+}
