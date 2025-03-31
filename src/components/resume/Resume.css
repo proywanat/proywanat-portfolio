@@ -81,3 +81,33 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .resume__container {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+
+  .skills-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skills-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .timeline {
+    padding: 1.5rem;
+  }
+
+  .timeline__item {
+    padding-left: 2rem;
+  }
+
+  .timeline .icon-briefcase, .timeline .icon-cup {
+    font-size: var(--h3-font-size);
+    left: -0.25rem;
+  }
+}
