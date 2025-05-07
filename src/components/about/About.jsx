@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import Image from "../../assets/aboutme.png";
-import cvfile from "./wanatchaporn_cv.pdf"
+import cvfile from "./wanatchaporn_resume.pdf"
 
 const About = () => {
   return (
@@ -51,7 +51,7 @@ const About = () => {
              I’m open to opportunities that allow me to learn, evolve, and create high-quality 
              solutions that solve real-world problems.
             </p>
-            <a href={cvfile} download="Wanatchaporn_CV" className="btn">
+            <a href={cvfile} download="Wanatchaporn_Resume" className="btn">
               Download CV
             </a>
           </div>
