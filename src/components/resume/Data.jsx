@@ -41,6 +41,8 @@ const Data = [
         <ul class="skills-list">
           <li>Python</li>
           <li>SQL</li>
+          <li>Airflow</li> 
+          <li>ETL</li>
         </ul>
       </div>
     ),

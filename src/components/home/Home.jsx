@@ -15,8 +15,8 @@ const Home = () => {
         <span className="home__education">
           I'm {' '}
           <Typewriter className="home__education"
-            words={['Software Developer', 'Full Stack Engineer']}
-            // words={['Software Developer', 'Full Stack Engineer', 'Data Engineer']}
+            // words={['Software Developer', 'Full Stack Engineer']}
+            words={['Software Developer', 'Full Stack Engineer', 'Data Engineer']}
             loop={true}
             cursor
             cursorStyle='|'
