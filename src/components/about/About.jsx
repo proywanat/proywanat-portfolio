@@ -23,24 +23,23 @@ const About = () => {
             <div className="about__details__skills">
               <i className="icon-book-open"></i>
               <h3>English Language Levels</h3>
-              <p>Intermediate (B1)</p>
+              <p>TOEIC : 530</p>
             </div>
           </div>
           <div>
-            {/* <p className="about__description">
+            <p className="about__description">
               Hello, my name is Wanat. I am currently working as a Software
-              Developer with 1 year of experience. Recently, I have taken the
-              opportunity to expand my knowledge beyond programming skills. I
-              chose to study Data Engineering, focusing on Python, SQL, and data
-              analysis tools such as Pandas and NumPy. I’ve also explored how to
-              apply these skills to build Machine Learning models, alongside
-              other areas like Big Data management and data visualization. After
-              studying and working on projects, I found myself increasingly
-              fascinated by the field of Data. This inspired me to delve deeper
-              and seriously consider transitioning to a Data Engineer role in
-              the future.
-            </p> */}
-             <p className="about__description">
+              Developer with 1 year of experience. Recently I have dedicated
+              time to studying and developing skills in Data Engineering, 
+              focusing on Python and SQL, as well as data analysis tools like
+              Pandas and NumPy. I have worked on building ETL workflows, 
+              data pipelines, and data visualizations to process and organize
+              data for analysis and business decision-making. Through these projects,
+              I have become increasingly interested in the field of data and am 
+              committed to further developing my expertise to transition into 
+              a Data Engineer role in the near future.
+            </p>
+             {/* <p className="about__description">
              My name is Wanat. I am a Software Developer with 1 year of experience in developing 
              and maintaining web and mobile applications. I have aptitude in various programming 
              languages and frameworks such as ReactJS, Java, and Flutter to deliver the best 
@@ -50,7 +49,7 @@ const About = () => {
              challenging and exciting.
              I’m open to opportunities that allow me to learn, evolve, and create high-quality 
              solutions that solve real-world problems.
-            </p>
+            </p> */}
             <a href={cvfile} download="Wanatchaporn_Resume" className="btn">
               Download CV
             </a>
