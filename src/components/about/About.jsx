@@ -17,7 +17,7 @@ const About = () => {
               <i className="icon-badge"></i>
               <h3>Experience</h3>
               <p>
-                1 year <br /> Software Developer
+                2 years <br /> Full Stack Developer
               </p>
             </div>
             <div className="about__details__skills">
@@ -28,8 +28,8 @@ const About = () => {
           </div>
           <div>
             <p className="about__description">
-              Hello, my name is Wanat. I am currently working as a Software
-              Developer with 1 year of experience. Recently I have dedicated
+              Hello, my name is Wanat. I am currently working as a Full Stack
+              Developer with 2 years of experience. Recently I have dedicated
               time to studying and developing skills in Data Engineering, 
               focusing on Python and SQL, as well as data analysis tools like
               Pandas and NumPy. I have worked on building ETL workflows, 
